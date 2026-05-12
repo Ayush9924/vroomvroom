@@ -1,2 +1,5 @@
 *
 !.gitignore
+!cars/
+cars/*
+!cars/*.jpg
