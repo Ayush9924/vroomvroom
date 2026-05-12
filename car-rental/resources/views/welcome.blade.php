@@ -137,12 +137,12 @@
     <!-- Featured Cars Section -->
     @php
         $demoCars = [
-            (object)['name' => 'Luxury Sedan', 'color' => 'Black', 'price_per_day' => 55000, 'image' => 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&q=80'],
-            (object)['name' => 'Sports Coupe', 'color' => 'Black', 'price_per_day' => 65000, 'image' => 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&q=80'],
-            (object)['name' => 'Luxury SUV', 'color' => 'Black', 'price_per_day' => 70000, 'image' => 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=400&q=80'],
-            (object)['name' => 'Convertible', 'color' => 'Black', 'price_per_day' => 60000, 'image' => 'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&q=80'],
-            (object)['name' => 'Hatchback', 'color' => 'Black', 'price_per_day' => 45000, 'image' => 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=400&q=80'],
-            (object)['name' => 'Electric SUV', 'color' => 'Black', 'price_per_day' => 75000, 'image' => 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&q=80'],
+            (object)['name' => 'Luxury Sedan', 'color' => 'Black', 'price_per_day' => 55000, 'image' => asset('storage/cars/benjamin-child-7Cdw956mZ4w-unsplash.jpg')],
+            (object)['name' => 'Sports Coupe', 'color' => 'Black', 'price_per_day' => 65000, 'image' => asset('storage/cars/hyundai-motor-group-mpWLjX-WaNo-unsplash.jpg')],
+            (object)['name' => 'Luxury SUV',   'color' => 'Black', 'price_per_day' => 70000, 'image' => asset('storage/cars/kartik-snekar-cqocvUWSc1A-unsplash.jpg')],
+            (object)['name' => 'Convertible',  'color' => 'Black', 'price_per_day' => 60000, 'image' => asset('storage/cars/kevin-bhagat-10tOJa4APL8-unsplash.jpg')],
+            (object)['name' => 'Hatchback',    'color' => 'Black', 'price_per_day' => 45000, 'image' => asset('storage/cars/louis-tricot-0BM8hXdsn_k-unsplash.jpg')],
+            (object)['name' => 'Electric SUV', 'color' => 'Black', 'price_per_day' => 75000, 'image' => asset('storage/cars/benjamin-child-7Cdw956mZ4w-unsplash.jpg')],
         ];
         $displayCars = isset($cars) && count($cars) > 0 ? $cars : $demoCars;
     @endphp
